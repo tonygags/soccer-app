@@ -43,8 +43,6 @@ export default class New extends Component {
         <form className="col s12" onSubmit={this.submitPlayer.bind(this)}>
           <h3>Add a new player</h3>
 
-          <div className="column">
-      
           <div className="row">
             <div className="input-field col s6">
               <input placeholder="Name" ref="name" type="text" className="validate"/>
@@ -74,6 +72,7 @@ export default class New extends Component {
               </select>
             </div>
           </div>
+
           <div className="row">
             <div className="input-field col s6">
               <h5>Passing Abilities</h5>
@@ -94,11 +93,8 @@ export default class New extends Component {
               </select>
             </div>
           </div>
-      
-      </div>
 
-      <div className="column">
-      <div className="row">
+          <div className="row">
             <div className="input-field col s6">
               <h5>Field Coverage - speed</h5>
               <select className="browser-default" ref="fieldCoverage">
@@ -139,12 +135,6 @@ export default class New extends Component {
               </select>
             </div>
           </div>
-          
-          </div>
-
-
-
-          
 
           <div className="row">
             <div className="input-field col s6">

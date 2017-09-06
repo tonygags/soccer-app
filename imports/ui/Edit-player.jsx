@@ -139,7 +139,7 @@ editPlayer(event) {
 
           <div className="row">
             <div className="input-field col s6">
-              <textarea placeholder="Notes" ref="notes" className="materialize-textarea"/>
+              <textarea placeholder="Notes" ref="notes" className="materialize-textarea" defaultValue={currentPlayer.notes}/>
             </div>
             <div className="input-field col s6">
               <button className="btn waves-effect waves-light light-blue darken-3" type="submit" name="action">Submit
